@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Qassemha is an easy tool to split bills with friends, colleagues and family. We deliver one consolidated view of all shared expenses. We manage your personal cash for you. Qassemha is managing cashsharing between individuals and among groups.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
