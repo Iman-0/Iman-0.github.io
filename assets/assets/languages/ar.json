@@ -16,5 +16,10 @@
     "getUpdates": "احصل على التحديثات",
     "puplishedFeatureUpdates": "احصل على تحديث حول كل الأخبار والميزات المنشورة لدينا",
     "youEmail": "بريدك الـإلكتروني",
-    "allRightsReserved": "© ٢٠٢٣ شركة قسِّمها. جميع الحقوق محفوظة."
+    "allRightsReserved": "© ٢٠٢٣ شركة قسِّمها. جميع الحقوق محفوظة.",
+    "ok": "حسناً",
+    "thankYou": "شكراً لك",
+    "sorry": "عذراً",
+    "youHaveSubscribe": "لقد قمت بالاشتراك بنجاح!",
+    "youHaveSubscribeAlready": "لقد قمت بالاشتراك بالفعل!"
 }
