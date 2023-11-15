@@ -21,6 +21,7 @@
     "thankYou":"Thank You",
     "sorry":"Sorry",
     "youHaveSubscribe":"You have subscribed successfully!",
-    "youHaveSubscribeAlready":"You have already subscribed!"
-
+    "youHaveSubscribeAlready":"You have already subscribed!",
+    "serverError":"Server Error",
+    "privacyPolicy":"Privacy Policy"
 }
