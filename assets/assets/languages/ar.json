@@ -22,6 +22,12 @@
     "sorry": "عذراً",
     "youHaveSubscribe": "لقد قمت بالاشتراك بنجاح!",
     "youHaveSubscribeAlready": "لقد قمت بالاشتراك بالفعل!",
-    "serverError":"خطأ في الخادم",
-    "privacyPolicy":"سياسة الخصوصية"
+    "serverError": "خطأ في الخادم",
+    "privacyPolicy": "سياسة الخصوصية",
+    "contactUs": "اتصل بنا",
+    "submit": "إرسال",
+    "subject": "الموضوع",
+    "yourMessage": "رسالتك...",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني"
 }
