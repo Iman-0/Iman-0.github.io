@@ -93617,7 +93617,7 @@ s($,"aRm","dG",()=>A.fZ(A.awG(A.a([1],t.t)).buffer,0,null).getInt8(0)===1?B.ah:B
 s($,"aUH","a_o",()=>new A.a10(A.v(t.N,A.a8("ma"))))
 r($,"aU1","aql",()=>B.AM)
 r($,"aQQ","aBJ",()=>{var q=null,p=A.a([A.ark(q,new A.a_Y(),"/"),A.ark(new A.a_Z(),q,"/splash")],t.yo)
-return A.aH4(!0,q,q,q,q,"/",q,q,q,!1,q,!0,q,!1,new A.Rw(new A.ac2(p,A.aQo(),5)))})
+return A.aH4(!0,q,q,q,q,"/splash",q,q,q,!1,q,!0,q,!1,new A.Rw(new A.ac2(p,A.aQo(),5)))})
 s($,"aUV","a_p",()=>A.aH1(null,t.Np))
 r($,"aUX","aug",()=>A.aI4())
 r($,"aQR","aBK",()=>{var q="Liberation Sans",p=null,o="Gaoel",n=A.cN(p,p,B.i,p,p,p,p,p,q,p,p,140,p,p,B.bm,p,1.3,!0,p,p,p,p,p,p,p,p),m=A.cN(p,p,B.i,p,p,p,p,p,q,p,p,70,p,p,B.bm,p,1.3,!0,p,p,p,p,p,p,p,p),l=A.cN(p,p,B.i,p,p,p,p,p,q,p,p,32,p,p,B.bm,p,1.3,!0,p,p,p,p,p,p,p,p),k=A.cN(p,p,B.i,p,p,p,p,p,q,p,p,28,p,p,B.bm,p,1.3,!0,p,p,p,p,p,p,p,p),j=A.cN(p,p,B.i,p,p,p,p,p,q,p,p,26,p,p,B.bm,p,1.3,!0,p,p,p,p,p,p,p,p),i=A.cN(p,p,B.i,p,p,p,p,p,q,p,p,24,p,p,B.bm,p,1.3,!0,p,p,p,p,p,p,p,p)
