@@ -18,28 +18,50 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="DXera website.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="dxera">
+  <meta name="apple-mobile-web-app-title" content="DXera">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/> -->
+  <!-- Favicon -->
+  <link href="favicon-light.png" rel="shortcut icon" type="image/png" media="(prefers-color-scheme: dark)" />
+  <link href="favicon-dark.png" rel="shortcut icon" type="image/png" media="(prefers-color-scheme: light)" />
 
-  <title>dxera</title>
+  <title>DXera</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2251736201";
+    const serviceWorkerVersion = "3260593074";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
+  <script>
+    // select the favicon 👉
+    const faviconEl = document.querySelector('link[rel="shortcut icon"]')
+
+    // watch for changes 🕵️
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: light)')
+    mediaQuery.addEventListener('change', themeChange)
+
+    // listener 👂
+    function themeChange(event) {
+        if (event.matches) {
+            faviconEl.setAttribute('href', 'favicon-dark.png')
+        } else {
+            faviconEl.setAttribute('href', 'favicon-light.png')
+        }
+    }
+
+  </script>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js

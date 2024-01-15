@@ -24,10 +24,10 @@
     "serviceBody1": "Building dynamic and responsive websites tailored to meet the unique requirements of businesses, focusing on design, functionality, and user engagement.",
     "serviceTitle2": "Mobile Application",
     "serviceBody2": "Crafting innovative and user-centric mobile applications across platforms, ensuring seamless user experiences and leveraging the latest technologies for optimal performance.",
-    "serviceTitle3": "IT Training",
-    "serviceBody3": "Offering tailored training programs to enhance the skills of IT professionals, ensuring they stay updated with the latest technologies and industry best practices.",
-    "serviceTitle4": "Technology Consultation",
-    "serviceBody4": "Providing expert guidance on technology adoption, infrastructure optimization, and strategic planning to help businesses make informed decisions for sustainable growth.",
+    "serviceTitle3": "Technology Consultation",
+    "serviceBody3": "Providing expert guidance on technology adoption, infrastructure optimization, and strategic planning to help businesses make informed decisions for sustainable growth.",
+    "serviceTitle4": "IT Training",
+    "serviceBody4": "Offering tailored training programs to enhance the skills of IT professionals, ensuring they stay updated with the latest technologies and industry best practices.",
     "serviceTitle5": "E-Commerce and Digital Platforms",
     "serviceBody5": "Creating robust e-commerce solutions and digital platforms that empower businesses to establish a strong online presence, enhance customer interactions, and drive digital sales.",
     "serviceTitle6": "Custom Solution",
@@ -45,6 +45,10 @@
     "needInfo": "Need more information? ",
     "chatUs": "Chat with us",
     "letsDigitalizeUrBusiness1": "Let’s \nDigitalize \nyour business",
-    "letsDigitalizeUrBusiness2": "Let’s \nDigitalize \nyour \nbusiness"
-
+    "letsDigitalizeUrBusiness2": "Let’s \nDigitalize \nyour \nbusiness",
+    "messageSent": "your message has been sent successfully",
+    "invalid": "Invalid",
+    "required": "Required",
+    "notValidEmail": "The email field must be a valid email address.",
+    "ok": "Ok"
 }

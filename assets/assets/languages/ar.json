@@ -44,5 +44,11 @@
     "needInfo": "تحتاج المزيد من المعلومات؟ ",
     "chatUs": "دردش معنا",
     "letsDigitalizeUrBusiness1": "دعنا نحول \nالعمل الخاص بك إلى \nعمل رقمي",
-    "letsDigitalizeUrBusiness2": "دعنا نحول \nالعمل الخاص بك \nإلى عمل رقمي"
+    "letsDigitalizeUrBusiness2": "دعنا نحول \nالعمل الخاص بك \nإلى عمل رقمي",
+    "messageSent": "تم ارسال رسالتك بنجاح",
+    "invalid": "غير صالح",
+    "required": "مطلوب",
+    "notValidEmail": "يجب أن يكون عنوان البريد الإلكتروني صالحًا.",
+    "ok": "حسناً"
+
 }
