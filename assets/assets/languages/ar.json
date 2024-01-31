@@ -22,6 +22,18 @@
     "sorry": "عذراً",
     "youHaveSubscribe": "لقد قمت بالاشتراك بنجاح!",
     "youHaveSubscribeAlready": "لقد قمت بالاشتراك بالفعل!",
-    "serverError":"خطأ في الخادم",
-    "privacyPolicy":"سياسة الخصوصية"
+    "serverError": "خطأ في الخادم",
+    "privacyPolicy": "سياسة الخصوصية",
+    "contactUs": "اتصل بنا",
+    "submit": "إرسال",
+    "subject": "الموضوع",
+    "yourMessage": "رسالتك...",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "yourMessageSent": "تم إرسال رسالتك بنجاح.",
+    "generalErrorTitle": "هناك خطأ",
+    "generalErrorContent": "حدث خطأ ما. الرجاء معاودة المحاولة في وقت لاحق.",
+    "internalServerErrorContent": "خطأ في الخادم الداخلي. الرجاء معاودة المحاولة في وقت لاحق",
+    "connectionTimeoutTitle": "انتهت مدة الاتصال",
+    "connectionTimeoutBody": "تعذر الوصول إلى الخادم. من فضلك ، تحقق من اتصالك بالشبكة وحاول مرة أخرى."
 }
