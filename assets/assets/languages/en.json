@@ -50,5 +50,13 @@
     "invalid": "Invalid",
     "required": "Required",
     "notValidEmail": "The email field must be a valid email address.",
-    "ok": "Ok"
+    "ok": "Ok",
+    "fututeChampionAcademy": "Future Champion Academy",
+    "makyoon": "Makyoon",
+    "qutoofDevelopment": "Qutoof for Development and Investment",
+    "qassemha": "Qassemha",
+    "fADEN": "FADEN",
+    "finance": "Finance",
+    "internationalConsultingFoundation": "International Consulting Foundation",
+    "globalKnowledge": "Global Knowledge"
 }
