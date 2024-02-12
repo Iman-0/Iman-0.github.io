@@ -46,7 +46,7 @@
     "chatUs": "Chat with us",
     "letsDigitalizeUrBusiness1": "Let’s \nDigitalize \nyour business",
     "letsDigitalizeUrBusiness2": "Let’s \nDigitalize \nyour \nbusiness",
-    "messageSent": "your message has been sent successfully",
+    "messageSent": "Your message has been sent successfully. \nWe will contact you shortly.",
     "invalid": "Invalid",
     "required": "Required",
     "notValidEmail": "The email field must be a valid email address.",
@@ -59,8 +59,11 @@
     "finance": "Finance",
     "internationalConsultingFoundation": "International Consulting Foundation",
     "globalKnowledge": "Global Knowledge",
-    "ourClientsText": "Empowering our clients with innovative software solutions tailored to their unique needs, we strive to elevate efficiency and productivity, ensuring their success in the digital landscape.",
+    "ourClientsText": "Empowering our clients with innovative solutions tailored to their unique needs, we strive to elevate efficiency and productivity, ensuring their success in the digital landscape.",
     "at": "At ",
     "weEmbody": "we embody a relentless pursuit of innovation, driving our core values to deliver cutting-edge software solutions that ",
-    "transformBusinesses": "Transform Businesses."
+    "transformBusinesses": "Transform Businesses.",
+    "innovationDrives": "Innovation drives us relentlessly at",
+    "dxera": "DXera",
+    "wePushBoundries": "We push boundaries and provide the latest technology solutions that embody our passion for excellence."
 }
