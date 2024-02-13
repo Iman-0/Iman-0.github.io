@@ -41,21 +41,16 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1034963820";
+    const serviceWorkerVersion = "4102210493";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 
 <body>
-  <img src="images/splash.gif" class="center" />
+  <img src="images/splash.gif" alt="splash" class="center" />
   <script>
     let useHtml = true;
-
-    window.addEventListener('beforeinstallprompt', function (e) {
-      e.preventDefault();
-      return false;
-    });
 
     window.addEventListener('load', function (ev) {
       // Download main.dart.js
@@ -73,6 +68,11 @@
         }
       });
     });
+
+    // window.addEventListener('beforeinstallprompt', function (e) {
+    //   e.preventDefault();
+    //   return false;
+    // });
 
     // select the favicon 👉
     const faviconEl = document.querySelector('link[rel="shortcut icon"]')
