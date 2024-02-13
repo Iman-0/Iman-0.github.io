@@ -41,7 +41,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2279562359";
+    const serviceWorkerVersion = "673140520";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -51,6 +51,11 @@
   <img src="assets/images/logo_once.gif" class="center" />
   <script>
     let useHtml = true;
+
+    window.addEventListener('beforeinstallprompt', function (e) {
+      e.preventDefault();
+      return false;
+    });
 
     window.addEventListener('load', function (ev) {
       // Download main.dart.js
