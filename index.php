@@ -41,16 +41,14 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3764971696";
+    const serviceWorkerVersion = "2279562359";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 
 <body>
-  <!-- <img src="assets/images/logo_once.gif"  />  -->
   <img src="assets/images/logo_once.gif" class="center" />
-  <!-- height="25%" width="35%" -->
   <script>
     let useHtml = true;
 
