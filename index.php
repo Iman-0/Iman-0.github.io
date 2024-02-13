@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
@@ -38,28 +41,36 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3384831857";
+    const serviceWorkerVersion = "3764971696";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
+
 <body>
-  
+  <!-- <img src="assets/images/logo_once.gif"  />  -->
+  <img src="assets/images/logo_once.gif" class="center" />
+  <!-- height="25%" width="35%" -->
   <script>
-    window.addEventListener('load', function(ev) {
+    let useHtml = true;
+
+    window.addEventListener('load', function (ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+        onEntrypointLoaded: function (engineInitializer) {
+          let config = {
+            renderer: useHtml ? "html" : "canvaskit",
+          };
+          engineInitializer.initializeEngine().then(function (appRunner) {
             appRunner.runApp();
           });
         }
       });
     });
-  
+
     // select the favicon 👉
     const faviconEl = document.querySelector('link[rel="shortcut icon"]')
 
@@ -69,15 +80,16 @@
 
     // listener 👂
     function themeChange(event) {
-        if (event.matches) {
-            faviconEl.setAttribute('href', 'favicon-dark.png')
-        } else {
-            faviconEl.setAttribute('href', 'favicon-light.png')
-        }
+      if (event.matches) {
+        faviconEl.setAttribute('href', 'favicon-dark.png')
+      } else {
+        faviconEl.setAttribute('href', 'favicon-light.png')
+      }
     }
 
-  
+
   </script>
- 
+
 </body>
+
 </html>
