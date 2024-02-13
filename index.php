@@ -37,11 +37,11 @@
   <link href="favicon-dark.png" rel="shortcut icon" type="image/png" media="(prefers-color-scheme: light)" />
 
   <title>DXera</title>
-  <link rel="manifest" href="manifest.json">
+  <!-- <link rel="manifest" href="manifest.json"> -->
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1719234412";
+    const serviceWorkerVersion = "4039704781";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>

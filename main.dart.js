@@ -47804,14 +47804,7 @@ A.ao7.prototype={
 $0(){this.a.d=this.b},
 $S:0}
 A.ava.prototype={
-$0(){var s,r=document,q=r.body
-q.toString
-r=r.createElement("script")
-r.src="https://maak-bot.com/engine/regbot.js"
-s=r.style
-s.display="block"
-r.defer=!0
-q.appendChild(r).toString},
+$0(){},
 $S:15}
 A.avb.prototype={
 $1(a){var s,r
