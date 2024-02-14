@@ -41,7 +41,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3215749233";
+    const serviceWorkerVersion = "732334078";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -96,35 +96,32 @@
       });
     });
 
-
     window.onbeforeunload = function () {
+      console.log('onbeforeunload');
       window.location.reload();
-      // console.log('onbeforeunload');
-
-      // var img = document.getElementById('splash');
-      // if (img) {
-      //   img.src = 'favicon-light';
-      // }
+      return confirm("Dude, are you sure you want to refresh? Think of the kittens!");
     }
+
+
     // window.onload = function () {
-      // setTimeout(function () {
-      //   console.log('here');
+    // setTimeout(function () {
+    //   console.log('here');
 
-      //     if (image) {
-      //       console.log(image.src);
-      //       // image.remove();
+    //     if (image) {
+    //       console.log(image.src);
+    //       // image.remove();
 
 
-      //       // image.src = 'images/splash.gif';
-      //       console.log(loadingIndicator.hasChildNodes);
-      //       // document.getElementById("myImg").src="images/splash.gif";
-      //       // loadingIndicator.replaceChild(<img src="images/splash.gif" alt="splash" class="indicator" />, <img src="images/splash.gif" alt="splash" class="indicator" />);
-      //       // document.getElementById("myImg");
+    //       // image.src = 'images/splash.gif';
+    //       console.log(loadingIndicator.hasChildNodes);
+    //       // document.getElementById("myImg").src="images/splash.gif";
+    //       // loadingIndicator.replaceChild(<img src="images/splash.gif" alt="splash" class="indicator" />, <img src="images/splash.gif" alt="splash" class="indicator" />);
+    //       // document.getElementById("myImg");
 
-      //     }
+    //     }
 
-      // }, 500);
-      //   // document.getElementById("myImg").src="icons/Icon-512.png";
+    // }, 500);
+    //   // document.getElementById("myImg").src="icons/Icon-512.png";
 
     // };
 
