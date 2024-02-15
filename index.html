@@ -41,7 +41,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3462306725";
+    const serviceWorkerVersion = "111981293";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -68,7 +68,9 @@
           };
 
           engineInitializer.initializeEngine().then(function (appRunner) {
-            appRunner.runApp();
+            setTimeout(() => {
+              appRunner.runApp();
+            }, 3100);
           });
 
 
@@ -81,11 +83,12 @@
 
       if (splash) {
         window.location.reload();
-
         splash.src = splash.getAttribute('src');
       }
 
     }
+
+
 
     // select the favicon 👉
     const faviconEl = document.querySelector('link[rel="shortcut icon"]')
