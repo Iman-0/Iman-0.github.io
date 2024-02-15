@@ -41,14 +41,14 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3216338265";
+    const serviceWorkerVersion = "4172235250";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 
 <body>
-  <img id="splash" src="img/splash.gif" alt="splash" class="center" />
+  <img id="splash" src="img/splash_logo.gif" alt="splash" class="center" />
 
 
   <script>
@@ -68,9 +68,7 @@
           };
 
           engineInitializer.initializeEngine().then(function (appRunner) {
-            setTimeout(() => {
-              appRunner.runApp();
-            }, 3800);
+            appRunner.runApp();
           });
 
 
@@ -79,13 +77,8 @@
     });
 
     window.onbeforeunload = function () {
-      var splash = document.getElementById('splash');
-
-      if (splash) {
-        window.location.reload();
-        splash.src = splash.getAttribute('src');
-      }
-
+      document.getElementById('splash').src = 'img/splash_logo.gif';
+      window.location.reload();
     }
 
 
