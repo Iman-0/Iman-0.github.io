@@ -70,7 +70,7 @@
           engineInitializer.initializeEngine().then(function (appRunner) {
             setTimeout(() => {
               appRunner.runApp();
-            }, 2800);
+            }, 3800);
           });
 
 
