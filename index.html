@@ -41,25 +41,18 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "732334078";
+    const serviceWorkerVersion = "3084795195";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 
 <body>
-  <img id="splash" src="splash/img/dark-1x.gif" alt="splash" class="center" />
-  <!-- <div id="loading_indicator" class="container">
-  </div> -->
+  <img id="splash" src="img/splash.gif" alt="splash" class="center" />
+
 
   <script>
     let useHtml = true;
-    // var loadingIndicator = document.getElementById("loading_indicator");
-
-    // var image = document.getElementById('splash');
-
-    // window.location.reload();
-
 
     window.addEventListener('load', function (ev) {
 
@@ -69,23 +62,10 @@
           serviceWorkerVersion: serviceWorkerVersion,
         },
         onEntrypointLoaded: function (engineInitializer) {
-          //   console.log('onreset');
-          //   if (document.getElementById('splash')) {
-          //     var oldChild = document.getElementById('splash');
-          //     var img = document.createElement('img');
-          //     img.src = "images/splash.gif";
-          //     img.alt = "splash";
-          //     img.id = 'splash';
-          //     img.className = "indicator";
 
-
-          //     loadingIndicator.replaceChild(oldChild, oldChild);
-          //   }
           let config = {
             renderer: useHtml ? "html" : "canvaskit",
           };
-
-
 
           engineInitializer.initializeEngine().then(function (appRunner) {
             appRunner.runApp();
@@ -97,38 +77,8 @@
     });
 
     window.onbeforeunload = function () {
-      console.log('onbeforeunload');
       window.location.reload();
-      return confirm("Dude, are you sure you want to refresh? Think of the kittens!");
     }
-
-
-    // window.onload = function () {
-    // setTimeout(function () {
-    //   console.log('here');
-
-    //     if (image) {
-    //       console.log(image.src);
-    //       // image.remove();
-
-
-    //       // image.src = 'images/splash.gif';
-    //       console.log(loadingIndicator.hasChildNodes);
-    //       // document.getElementById("myImg").src="images/splash.gif";
-    //       // loadingIndicator.replaceChild(<img src="images/splash.gif" alt="splash" class="indicator" />, <img src="images/splash.gif" alt="splash" class="indicator" />);
-    //       // document.getElementById("myImg");
-
-    //     }
-
-    // }, 500);
-    //   // document.getElementById("myImg").src="icons/Icon-512.png";
-
-    // };
-
-    // // window.addEventListener('beforeinstallprompt', function (e) {
-    // //   e.preventDefault();
-    //   return false;
-    // });
 
     // select the favicon 👉
     const faviconEl = document.querySelector('link[rel="shortcut icon"]')

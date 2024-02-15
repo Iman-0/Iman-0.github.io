@@ -3,43 +3,13 @@ body {
 }
 
 .center {
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 50%; */
+
     display: block;
     margin: auto;
-    /* background: url("images/splash.gif") repeat center; */
-    /* background-repeat: repeat; */
-
-
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     width: 60%;
     transform: translate(-50%, -50%)
-}
-
-/* img {
-    display: block;
-    width: 70%;
-    margin: auto;
-} */
-
-
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    /* Default Axis is X*/
-    justify-content: center;
-    /* Main Axis */
-    align-items: center;
-    /* Cross Axis */
-}
-
-.indicator {
-    width: 50vw;
 }
