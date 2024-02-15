@@ -41,14 +41,14 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "3084795195";
+    const serviceWorkerVersion = "3286071606";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 
 <body>
-  <img id="splash" src="img/splash.gif" alt="splash" class="center" />
+  <img id="splash" src="img/splash_logo.gif" alt="splash" class="center" />
 
 
   <script>
@@ -77,7 +77,31 @@
     });
 
     window.onbeforeunload = function () {
-      window.location.reload();
+      var splash = document.getElementById('splash');
+      console.log('onbeforeunload');
+
+      console.log(document.getElementById('splash').src);
+
+      if (splash) {
+        window.location.reload();
+      }
+
+    }
+
+    window.onloadeddata = function () {
+      console.log('onload');
+
+      // var splash = document.getElementById('splash');
+
+      console.log(document.getElementById('splash'));
+
+      // if(splash){
+      //   splash.remove();
+      //   // document.body.app
+      // }
+      // window.location.reload();
+
+      console.log(document.getElementById('splash'));
     }
 
     // select the favicon 👉
